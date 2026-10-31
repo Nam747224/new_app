@@ -1,0 +1,96 @@
+#if else
+
+# a=10
+# b=9
+# if a+b==19:
+#     print("Chính xác")
+# else:
+#     print("Ko chính xác")
+
+#for/while
+#----------------
+#for
+
+# hoa_quả = ["Táo", "Chuối", "Cam"]
+# for fruit in hoa_quả:
+#     print(f"Xin chào, {fruit}!")
+
+#Không bị lặp vô hạn
+#Dùng để duyệt qua một chuỗi dữ liệu
+#Số lần lặp đc biết trước hoặc cố định theo độ dài dữ liệu
+
+#-----------------
+#While
+
+#password = ""
+# while password != "1234":
+#     password = input("Nhập mật khẩu để vào hệ thống: ")
+
+# print("Đăng nhập thành công!")
+
+#Dễ bị lặp vô hạn nếu quên cập nhật điều kiện dừng
+#Vòng lặp while sẽ chạy liên tục miễn là điều kiện còn đúng
+#Số lần lặp không biết trước, phụ thuộc vào lúc chạy chương trình
+
+#def
+
+# def tính_toán(a, b):
+#     ket_qua = a + b
+#     return ket_qua
+
+# dap_an = tính_toán(4,10)
+# print(dap_an)
+
+#class/field/method
+#???
+
+#tuple/map/list 
+#------------------
+#list
+
+# shopping_list = ["táo", "chuối", "sữa"]
+# shopping_list[1] = "cam" 
+# shopping_list.append("bánh")
+
+# #Có thể sửa đổi, thay thế đc
+# #Các phần tử nằm trong ngoặc vuông
+# #Đc phép trùng lặp
+# #------------------
+# #tuple
+
+# tọa_độ = (21.028, 105.842)
+
+# #Ko thể sửa đổi và thay thế
+# #Các phần tử nằm trong ngoặc đơn
+# #Ko bị code lm thay đổi dữ liệu
+# #--------------------
+# #map
+
+# user_profile = {
+#     "username": "Nam",
+#     "age": 14,
+#     "city": "Hà Nội"
+# }
+# print(user_profile["city"])
+
+# #Các key ko đc trùng nhau
+# #Các phần tử nằm trong dấu ngoặc nhọn
+# #Dùng khi muốn liên kết các dữ liệu với nhau
+
+# class Hinh_vuong:
+#     def __init__(self, cạnh):
+#         self.cạnh = cạnh
+    
+#     def chu_vi(self):
+#         p = self.cạnh*4
+#         return p
+#     def dien_tich(self):
+#         s = self.cạnh**2
+#         return s
+
+
+# _hinhvuong1 = Hinh_vuong(5)
+# dientich1 = _hinhvuong1.dien_tich()
+
+
+
